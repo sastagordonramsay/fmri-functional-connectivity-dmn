@@ -51,4 +51,4 @@ pip install -r requirements.txt
 jupyter notebook notebooks/dmn_analysis.ipynb
 
 Notes
-This analysis provides an approximate ROI-based representation of resting-state networks and is intended as a demonstration of computational neuroimaging workflows.
+This analysis provides an approximate ROI-based representation of resting-state networks and is intended as a demonstration of computational neuroimaging workflows. This analysis is performed on a single subject as a proof-of-concept for pipeline implementation.
