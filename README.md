@@ -80,5 +80,10 @@ pip install -r requirements.txt
 
 jupyter notebook dmn_analysis.ipynb
 
+### Limitations
+- Single-subject analysis
+- Simplified preprocessing (no confound regression)
+- Approximate ROI selection for DMN
+  
 Notes
 This analysis provides an approximate ROI-based representation of resting-state networks and is intended as a demonstration of computational neuroimaging workflows. This analysis is performed on a single subject as a proof-of-concept for pipeline implementation.
