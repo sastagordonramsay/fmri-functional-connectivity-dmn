@@ -16,64 +16,64 @@ This project implements an ROI-based functional connectivity analysis pipeline u
 
 ## Dataset
 
-*Source: Nilearn developmental fMRI dataset
+* Source: Nilearn developmental fMRI dataset
 
-*Type: Resting-state fMRI
+* Type: Resting-state fMRI
 
-*Format: NIfTI (.nii.gz)
+* Format: NIfTI (.nii.gz)
 
-*Dimensions: 4D (x, y, z, time)
+* Dimensions: 4D (x, y, z, time)
 
 ## Methods
 
 1. Preprocessing
 
-*Temporal filtering (0.01–0.1 Hz)
+* Temporal filtering (0.01–0.1 Hz)
 
-*Detrending
+* Detrending
 
-*Standardization (z-score normalization)
+* Standardization (z-score normalization)
 
-*Brain masking using NiftiMasker
+* Brain masking using NiftiMasker
 
 2. ROI Extraction
 
-*Atlas: Harvard-Oxford cortical atlas
+* Atlas: Harvard-Oxford cortical atlas
 
-*ROI time-series extracted using NiftiLabelsMasker
+* ROI time-series extracted using NiftiLabelsMasker
 
 3. Connectivity Analysis
 
-*Pearson correlation between ROI time-series
+* Pearson correlation between ROI time-series
 
-*Generation of connectivity matrix
+* Generation of connectivity matrix
 
 ## Results
 
-*Functional Connectivity Heatmap
+* Functional Connectivity Heatmap
 
-*Brain Network Visualization
+* Brain Network Visualization
 
 ## Key Findings
-*Moderate to strong positive correlations between selected brain regions
+* Moderate to strong positive correlations between selected brain regions
 
-*Evidence of hub-like connectivity patterns in specific ROIs
+* Evidence of hub-like connectivity patterns in specific ROIs
 
-*Network structure consistent with resting-state functional organization
+* Network structure consistent with resting-state functional organization
 
 ## Tools & Libraries
 
-*Python
+* Python
 
-*Nilearn
+* Nilearn
 
-*Nibabel
+* Nibabel
 
-*NumPy
+* NumPy
 
-*Matplotlib
+* Matplotlib
 
-*Seaborn
+* Seaborn
 
 ## How to Run
 pip install -r requirements.txt
