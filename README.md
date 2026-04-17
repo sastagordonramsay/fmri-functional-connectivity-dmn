@@ -6,13 +6,13 @@ This project implements an ROI-based functional connectivity analysis pipeline u
 
 ## Objectives
 
-*Process 4D fMRI data into analyzable time-series
+* Process 4D fMRI data into analyzable time-series
 
-*Extract region-wise signals using anatomical atlases
+* Extract region-wise signals using anatomical atlases
 
-*Compute functional connectivity between brain regions
+* Compute functional connectivity between brain regions
 
-*Visualize network structure using heatmaps and connectome plots
+* Visualize network structure using heatmaps and connectome plots
 
 ## Dataset
 
